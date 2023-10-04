@@ -120,7 +120,7 @@ public class CreateContactWithOrganizationTest extends BaseClass{
 		System.out.println("PASS: The Organization has been successfully created and validated.");
 		System.out.println("The Organization name is: "+orgName);
 		
-		Assert.fail(); //Just to check if screenshot is captured when the script fails.
+		//Assert.fail(); //Just to check if screenshot is captured when the script fails.
 		
 		//Navigate to Contacts link. 
 		hp.clickOnContactLink();
@@ -161,7 +161,7 @@ public class CreateContactWithOrganizationTest extends BaseClass{
 		driver.quit();*/
 	}
 	
-	@Test       //Just to check the graphical representation of 2 test annotations, we are creating this method.
+	@Test       //Just to check the graphical representation of 2 test annotations in extent reports, we are creating this method.
 	public void demo() {
 		System.out.println("Demo");
 	}

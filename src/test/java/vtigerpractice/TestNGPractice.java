@@ -28,7 +28,7 @@ public class TestNGPractice {
 	
 	@Test()
 	public void createContact() {
-	Assert.fail();     //To intentionally fail a  method, we use assertions. The methods that are dependent on this method will be skipped.
+	//Assert.fail();     //To intentionally fail a  method, we use assertions. The methods that are dependent on this method will be skipped.
 	System.out.println("Create");
 	}
 	

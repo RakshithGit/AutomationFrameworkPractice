@@ -11,6 +11,7 @@
           <include name="acConfig"/>
           <include name="bsConfig"/>
           <include name="createContactWithOrganizationTest"/>
+          <include name="demo"/>
           <include name="asConfig"/>
         </methods>
       </class> <!-- contactTests.CreateContactWithOrganizationTest -->

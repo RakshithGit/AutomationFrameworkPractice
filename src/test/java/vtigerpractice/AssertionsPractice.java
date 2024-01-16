@@ -6,7 +6,7 @@ import org.testng.asserts.SoftAssert;
 
 public class AssertionsPractice {
 	
-	@Test
+	@Test               //Hard Assert contains static methods whereas Soft Assert contains non static methodsS.
 	public void test1() { //Hard assert will stop the execution at failed assertion line if the assertion fails.
 		System.out.println("Hi started"); //Hard assertion is usually used for mandatory fields.
 		Assert.assertEquals("a", "b");
@@ -21,11 +21,6 @@ public class AssertionsPractice {
 		System.out.println("Hello Ended");
 		sa.assertAll();
 	}
-	
-	
-	
-	
-	
 	
 	
 }

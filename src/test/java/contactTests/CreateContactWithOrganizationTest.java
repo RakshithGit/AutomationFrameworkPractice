@@ -25,7 +25,8 @@ public class CreateContactWithOrganizationTest extends BaseClass{
 	//This means that no matter what the group name is, the annotations will get executed.
 	//Therefore, the control will check for all the annotations that consist of the group name in them. 
 	
-	@Test(groups = "SmokeSuite") 
+	@Test(groups = "SmokeSuite") //For group execution, the jvm looks only for annotations that contain groups keyword.
+	//Therefore, even if we have another @Test annotation, only the @Test that has group keyword is executed.
 	public void createContactWithOrganizationTest() throws Throwable {
 		//The below lines of code are not required as we are extending the base class and we inherit these codes from base class.
 		

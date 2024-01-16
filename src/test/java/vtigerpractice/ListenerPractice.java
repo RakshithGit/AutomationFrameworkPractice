@@ -5,7 +5,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners(genericUtilities.ListenersImplementation.class) //We use @Listeners annotation and provide fully qualified name with .class extension.
-public class ListenerPractice { //No need to implement as we are using listeners.
+public class ListenerPractice { //No need to extend as we are using listeners.
 
 	@Test
 	public void demo() { // TestNG is designed to continue executing test methods even if an assertion failure occurs within a test method.

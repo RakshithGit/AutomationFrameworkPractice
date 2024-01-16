@@ -36,7 +36,7 @@ public class BaseClass {
 	public static WebDriver sDriver; // Creating a static variable to get driver reference so that it can be used in 
 									 // ListenersImplementation class to capture the screenshot.
 
-	@BeforeSuite(alwaysRun = true)
+	@BeforeSuite(alwaysRun = true) //or we can also give groups = "group_name_given_in_Siute.xml_file"
 	public void bsConfig() {
 		System.out.println("========= Database Connection successful =========");
 	}
@@ -51,7 +51,7 @@ public class BaseClass {
 		//Here, we don't need the below line of code i.e., we don't need to read data for browser from
 		//the property file as we are reading it from the SuiteXML file and have parameterized the method.
 		//Therefore the BROWSER variable will hold the value from the SuiteXML file and will be used here.
-		
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\rajat\\.cache\\selenium\\geckodriver\\win64\\0.34.0\\geckodriver.exe");
 		String BROWSER = pUtil.readDataFromPropertyFile("browser");
 		String URL = pUtil.readDataFromPropertyFile("url");
 		

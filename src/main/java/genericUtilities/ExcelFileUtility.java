@@ -9,7 +9,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 /**
  *@author Rakshith
- *This class consists of all the reusable methods related Excel File. 
+ *This class consists of all the reusable methods related to Excel File. 
  */
 
 public class ExcelFileUtility {

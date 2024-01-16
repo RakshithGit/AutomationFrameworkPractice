@@ -46,6 +46,7 @@ public class CreateContactWithOrganizationTest extends BaseClass{
 		//Read data from Excel file. 
 		String ORGNAME = eUtil.readDataFromExcel("Contacts", 4, 2)+jUtil.getRandomNumber();
 		String LASTNAME = eUtil.readDataFromExcel("Contacts", 4, 3);
+		wUtil.waitForPageLoad(driver);
 		
 		//Launch the browser. Run-time polymorphism-driver.
 		
